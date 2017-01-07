@@ -1,0 +1,85 @@
+body {
+    background: #FFF;
+    font-family: "Liberation Sans", Arial, sans-serif;
+    font-size: .8em;
+}
+#page {
+    width: 1024px;
+    height: 768px;
+    
+    position: absolute;
+}
+#content {
+    z-index: 2;
+}
+#documentTitle {
+    text-align: center;
+    font-size: .9em;
+    margin: 0px;
+    margin-top: 0px;
+}
+#documentTitle span {
+    color: #FFF;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.04);
+    letter-spacing: -1px;
+    
+    padding: 2px 6px;
+    xbackground: rgba(255, 255, 255, .03);
+    
+    -moz-border-radius: 5px;
+}
+
+#content .Page {
+    display: none;
+}
+#content .TargetPage {
+    display: block !important;
+}
+
+#content .Page .Texts {
+	display:none;
+}
+
+#content .Page .Image {
+    position: absolute;
+    width: 1024px;
+    height: 768px;
+    
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+}
+#content .Page .Image img {
+    position: absolute;
+    left: 200px;
+    top: 390px;
+    border: none;
+}
+#content .Page .Image .ImageFooter {
+    display: none;
+}
+#navigator {    
+    display: none;
+}
+#navigator .NavLink {
+    display: none;
+}
+#navigator .NavLink .Wrapper {
+    display: none;
+}
+#navigator .NavNextLink {
+    display: none;
+}
+#navigator .NavNextLink .Wrapper {
+    display: none;
+}
+#navigator .NavLink a {
+    display: none;
+}
+#navigator .NavLink:hover {
+    display: none;
+}
+
+#footer {
+    display: none;
+}
