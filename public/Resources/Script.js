@@ -21,10 +21,9 @@ function setup () {
         var image = document.getElementById(child.id + "_image");
         
         var w = parseInt(image.getAttribute("width"), 10);
-        image.style.marginLeft = "-50px";
         //image.style.marginLeft = "-" + (w / 2) + "px";
         var h = parseInt(image.getAttribute("height"), 10);
-        image.style.marginTop = "-400px";
+        image.style.marginTop = "-" + (h / 2) + "px";
         
         var page = {
             id: child.id,
